@@ -1,0 +1,20 @@
+server:
+  port: 56021
+  servlet:
+    context-path: /application1
+
+spring:
+  application:
+    name: application1
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 01196f3f-f9a5-4ceb-9f32-b21e9e845527
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 01196f3f-f9a5-4ceb-9f32-b21e9e845527
+

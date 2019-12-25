@@ -1,0 +1,16 @@
+server:
+   port: ${port:56010}
+#  port: 56010    # 启动端口
+
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848   # 指定了Nacos Server网络地址和端口号
+        namespace: 01196f3f-f9a5-4ceb-9f32-b21e9e845527  # 空间
+logging:
+  level:
+    root: info
+    org.springframework: info

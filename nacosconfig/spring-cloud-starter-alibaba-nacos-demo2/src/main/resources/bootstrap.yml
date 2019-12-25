@@ -1,0 +1,12 @@
+server:
+  port: 56012 #启动端口 命令行注入
+spring:
+  application:
+    name: server2
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848 # 配置中心地址
+        file-extension: yaml
+        namespace: 01196f3f-f9a5-4ceb-9f32-b21e9e845527 # 开发环境
+        group: DEV_GROUP # 测试组

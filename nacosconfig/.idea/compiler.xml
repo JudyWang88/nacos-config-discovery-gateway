@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudstarteralibabanacosconfig" />
+        <module name="springclouddiscovery" />
+        <module name="springcloudstarteralibabanacosdemo2" />
+        <module name="springclouddiscovery2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-starter-alibaba-nacos-config2" target="1.5" />
+      <module name="springcloudstarteralibabanacosconfig2" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
